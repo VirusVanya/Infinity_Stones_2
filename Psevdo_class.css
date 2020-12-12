@@ -1,0 +1,73 @@
+body {
+	background-color: #000000;
+	margin: 20px;
+    padding: 20px;
+}
+table, td, tr, th {
+	border: 3px solid white;
+    padding: 20px;
+    text-align: center;
+	color: #e60e0e;
+}
+img {
+	width: 500px;
+	height: 250px;
+}
+.Name {
+	border: 3px solid #ff0000;
+}
+.Description {
+	border: 3px solid #dceb13;
+}
+.Image {
+	border: 3px solid #0fffd3;
+}
+.Space {
+    color: #5c14b5;
+}
+.Power {
+    color: #cf0a0a;
+}
+.Reality {
+    color: #deed0e;
+}
+.Time {
+    color: #e6a709;
+}
+.Mind {
+    color: #02b8f5;
+}
+.Soul {
+    color: #02f588;
+}
+img:hover {
+    width: 100%;
+    height: 100%;
+}
+a:link {
+    color: #08ff08;
+    border: 3px double #ff0000;
+    border-radius: 5px;
+}
+a:visited {
+	color: #630fd1;
+	border: black;
+}
+a:hover {
+	color: #00fff7;
+}
+td:hover {
+	border: dashed white;
+}
+.Title::before {
+	content: "<<<<<<<<<<<<<<<<<<<<<<<<<<<";
+	color: #006aff;
+}
+.Title::after {
+	content: ">>>>>>>>>>>>>>>>>>>>>>>>>>>";
+	color: #006aff;
+}
+.Title {
+	color: #f0950c;
+	text-align: center;
+}
